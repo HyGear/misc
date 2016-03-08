@@ -100,7 +100,7 @@ sub gen_files
 				}
 				print "$line_file\n";
 				open NEWFILE, "+>>", $line_file or die $!;
-				print NEWFILE "\!Yanmar Hose Linestock\n";
+				print NEWFILE "\!Hose Linestock\n";
 				print NEWFILE "\!Author\: $columns[1]\n";
 				print NEWFILE "\!Created\: $columns[0]\n";
 				print NEWFILE "MATERIAL $columns[3]\n";
